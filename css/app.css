@@ -13,6 +13,20 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
+    background-color: #01579b;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .container {
